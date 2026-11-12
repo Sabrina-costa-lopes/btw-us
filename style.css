@@ -464,3 +464,453 @@ button:hover {
         padding: 25px 15px;
     }
 }
+
+/* SEGUNDO ENIGMA */
+
+.clock-symbol {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 90px;
+    color: var(--gold);
+    margin: 15px 0;
+    text-shadow: 0 0 25px rgba(182, 154, 97, 0.2);
+}
+
+#answer2 {
+    width: 100%;
+    max-width: 250px;
+    padding: 14px;
+    background: transparent;
+    border: 1px solid rgba(182, 154, 97, 0.5);
+    color: var(--paper);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    outline: none;
+}
+
+#answer2:focus {
+    border-color: var(--gold);
+}
+
+.success-message {
+    margin-top: 30px;
+    padding: 25px 15px;
+    border: 1px solid rgba(182, 154, 97, 0.4);
+    background: rgba(84, 28, 42, 0.25);
+    animation: appear 0.8s ease;
+}
+
+.success-message h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 15px 0;
+    color: var(--gold);
+}
+
+.success-message p:not(.eyebrow) {
+    color: #c8bfb4;
+    font-size: 12px;
+    line-height: 1.8;
+}
+
+
+/* TERCEIRO ENIGMA */
+
+.cipher-message {
+    margin: 35px auto;
+    padding: 30px 15px;
+    max-width: 350px;
+    border: 1px solid rgba(182, 154, 97, 0.4);
+    background: rgba(84, 28, 42, 0.2);
+    box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+.cipher-message span {
+    display: block;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 55px;
+    letter-spacing: 15px;
+    color: var(--gold);
+    padding-left: 15px;
+}
+
+.cipher-message p {
+    margin-top: 12px;
+    color: #a99b87;
+    font-size: 9px;
+    letter-spacing: 3px;
+}
+
+#answer3 {
+    width: 100%;
+    max-width: 300px;
+    padding: 14px;
+    background: transparent;
+    border: 1px solid rgba(182, 154, 97, 0.5);
+    color: var(--paper);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    outline: none;
+}
+
+#answer3:focus {
+    border-color: var(--gold);
+}
+
+/* QUARTO ENIGMA */
+
+.hat-scene {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+    margin: 35px auto;
+    padding: 25px 10px;
+    border-top: 1px solid rgba(182, 154, 97, 0.25);
+    border-bottom: 1px solid rgba(182, 154, 97, 0.25);
+}
+
+.hat-person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+}
+
+.hat-person .hat {
+    font-size: 42px;
+    filter: grayscale(1);
+}
+
+.hat-person span:not(.hat) {
+    color: var(--gold);
+    font-size: 9px;
+    letter-spacing: 1px;
+}
+
+.hat-person small {
+    color: #a99b87;
+    font-size: 9px;
+    line-height: 1.5;
+}
+
+.hat-question {
+    color: var(--gold) !important;
+    font-style: italic;
+    font-size: 24px !important;
+    margin-top: 15px;
+}
+
+#answer4 {
+    width: 100%;
+    max-width: 300px;
+    padding: 14px;
+    background: transparent;
+    border: 1px solid rgba(182, 154, 97, 0.5);
+    color: var(--paper);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    outline: none;
+}
+
+#answer4:focus {
+    border-color: var(--gold);
+}
+
+@media (max-width: 450px) {
+    .hat-scene {
+        gap: 10px;
+    }
+
+    .hat-person .hat {
+        font-size: 32px;
+    }
+
+    .hat-person small {
+        font-size: 8px;
+    }
+}
+
+/* QUINTO ENIGMA */
+
+.last-door {
+    margin: 35px auto;
+    padding: 35px 15px;
+    max-width: 350px;
+    border: 1px solid rgba(182, 154, 97, 0.4);
+    background: linear-gradient(
+        145deg,
+        rgba(84, 28, 42, 0.35),
+        rgba(16, 16, 16, 0.8)
+    );
+}
+
+.door-symbol {
+    font-size: 95px;
+    color: var(--gold);
+    text-shadow: 0 0 30px rgba(182, 154, 97, 0.35);
+    animation: appear 1.5s ease;
+}
+
+.last-door p {
+    margin-top: 20px;
+    font-size: 9px;
+    letter-spacing: 3px;
+    color: #a99b87;
+}
+
+#answer5 {
+    width: 100%;
+    max-width: 300px;
+    padding: 14px;
+    background: transparent;
+    border: 1px solid rgba(182, 154, 97, 0.5);
+    color: var(--paper);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    outline: none;
+}
+
+#answer5:focus {
+    border-color: var(--gold);
+}
+
+#openFinalEnvelope {
+    max-width: 100%;
+    line-height: 1.8;
+}
+
+/* RECOMPENSA FINAL */
+
+.rewards-container {
+    width: 100%;
+    max-width: 850px;
+    text-align: center;
+    padding: 35px 20px;
+    animation: appear 1s ease;
+}
+
+.rewards-container h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 55px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: var(--paper);
+    margin: 15px 0;
+}
+
+.rewards-intro {
+    max-width: 450px;
+    margin: 12px auto;
+    color: #c8bfb4;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 21px;
+    line-height: 1.6;
+}
+
+.final-envelope {
+    position: relative;
+    width: 270px;
+    height: 180px;
+    margin: 55px auto 25px;
+    background: linear-gradient(145deg, #642b38, #35151e);
+    border: 1px solid var(--gold);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.envelope-flap {
+    position: absolute;
+    inset: 0;
+    background: #783b47;
+    clip-path: polygon(0 0, 100% 0, 50% 65%);
+    transform-origin: top;
+    transition: transform 1s ease;
+    z-index: 3;
+}
+
+.envelope-paper {
+    position: absolute;
+    top: 20px;
+    left: 10%;
+    width: 80%;
+    height: 140px;
+    background: var(--paper);
+    color: #541C2A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    transition: transform 1s ease;
+}
+
+.wax-seal {
+    position: absolute;
+    z-index: 4;
+    left: 50%;
+    top: 58%;
+    transform: translate(-50%, -50%);
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #8c293c;
+    border: 2px solid #b69a61;
+    color: #e9d7ae;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.4);
+    transition: opacity 0.5s ease;
+}
+
+.final-envelope.opened .envelope-flap {
+    transform: rotateX(180deg);
+}
+
+.final-envelope.opened .envelope-paper {
+    transform: translateY(-65px);
+}
+
+.final-envelope.opened .wax-seal {
+    opacity: 0;
+}
+
+.envelope-instruction {
+    color: var(--gold);
+    font-size: 11px;
+    letter-spacing: 2px;
+    margin: 20px 0;
+}
+
+#couponsArea {
+    margin-top: 45px;
+    animation: appear 1s ease;
+}
+
+#couponsArea h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--paper);
+    margin: 20px 0;
+}
+
+.coupon-counter {
+    color: var(--gold);
+    font-size: 11px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+
+.coupons-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.coupon-card {
+    position: relative;
+    min-height: 155px;
+    padding: 22px 15px;
+    background: linear-gradient(145deg, #e9e0d2, #d5c5ad);
+    color: #251b18;
+    border: 1px solid var(--gold);
+    cursor: pointer;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.coupon-card:hover {
+    transform: translateY(-5px);
+}
+
+.coupon-card .coupon-number {
+    color: #8c293c;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.coupon-card h4 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 23px;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.coupon-card .coupon-status {
+    font-size: 9px;
+    letter-spacing: 2px;
+    color: #755b40;
+}
+
+.coupon-card.redeemed {
+    opacity: 0.55;
+    background: #b9ad9c;
+}
+
+.coupon-detail {
+    max-width: 500px;
+    margin: 35px auto;
+    padding: 35px 25px;
+    background: var(--paper);
+    color: #28201b;
+    border: 1px solid var(--gold);
+    animation: appear 0.5s ease;
+}
+
+.coupon-detail h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 34px;
+    color: #541C2A;
+    margin: 20px 0;
+}
+
+.coupon-detail > p:not(.eyebrow) {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 21px;
+    line-height: 1.7;
+}
+
+.coupon-detail button:not(.hint-button) {
+    background: #541C2A;
+    color: var(--paper);
+    border-color: #541C2A;
+}
+
+.coupon-detail .hint-button {
+    color: #755b40;
+}
+
+.final-message {
+    max-width: 450px;
+    margin: 55px auto 20px;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 22px;
+    color: var(--gold);
+    line-height: 1.6;
+}
+
+@media (max-width: 550px) {
+    .coupons-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .rewards-container h2 {
+        font-size: 43px;
+    }
+
+    .final-envelope {
+        width: 240px;
+        height: 160px;
+    }
+}

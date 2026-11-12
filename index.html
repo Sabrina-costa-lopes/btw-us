@@ -201,6 +201,353 @@
 <p id="feedback1" class="feedback"></p>
 
 
+<div id="success1" class="success-message hidden">
+    <p class="eyebrow">ACESSO CONCEDIDO</p>
+    <h3>A primeira porta foi aberta.</h3>
+    <p>Você encontrou o que estava escondido. Mas o tempo não espera.</p>
+    <button id="nextRiddle">AVANÇAR</button>
+</div>
+
+    </div>
+
+</section>
+
+
+<!-- ENIGMA 2 -->
+<section id="riddle2" class="screen">
+
+    <div class="riddle-container">
+
+        <p class="eyebrow">ARQUIVO Nº 002 — SEGUNDO ENIGMA</p>
+
+        <p class="progress">02 / 05</p>
+
+        <h2>O relógio parado</h2>
+
+        <div class="divider"></div>
+
+        <p class="riddle-description">
+            O relógio parou há muito tempo.
+            Seus ponteiros não se movem, mas um número
+            ainda guarda o segredo.
+        </p>
+
+        <div class="clock-symbol">◷</div>
+
+        <div class="mystery-text">
+            <p>Sou um número de dois algarismos.</p>
+            <p>A soma dos meus algarismos é nove.</p>
+            <p>O algarismo das dezenas é o dobro do algarismo das unidades.</p>
+            <p>Que número sou eu?</p>
+        </div>
+
+        <p class="answer-instruction">QUAL É O NÚMERO?</p>
+
+        <input
+            type="text"
+            id="answer2"
+            placeholder="Digite o número..."
+            autocomplete="off"
+        >
+
+        <button id="checkAnswer2">CONFIRMAR RESPOSTA</button>
+
+        <p id="feedback2" class="feedback"></p>
+
+        <button id="hint2" class="hint-button">
+            PRECISO DE UMA PISTA
+        </button>
+
+        <p id="hintText2" class="hint-text"></p>
+
+        <div id="success2" class="success-message hidden">
+            <p class="eyebrow">ACESSO CONCEDIDO</p>
+            <h3>O tempo voltou a correr.</h3>
+            <p>Dois caminhos foram revelados. Ainda restam três.</p>
+            <button id="nextRiddle2">AVANÇAR</button>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ENIGMA 3 -->
+<section id="riddle3" class="screen">
+
+    <div class="riddle-container">
+
+        <p class="eyebrow">ARQUIVO Nº 003 — TERCEIRO ENIGMA</p>
+
+        <p class="progress">03 / 05</p>
+
+        <h2>A mensagem cifrada</h2>
+
+        <div class="divider"></div>
+
+        <p class="riddle-description">
+            Uma mensagem foi interceptada.
+            Alguém tentou esconder seu verdadeiro significado.
+            Mas toda cifra deixa rastros.
+        </p>
+
+        <div class="cipher-message">
+            <span>DPEF</span>
+            <p>MENSAGEM CODIFICADA</p>
+        </div>
+
+        <div class="mystery-text">
+            <p>Cada letra foi substituída pela próxima.</p>
+            <p>O segredo está no alfabeto.</p>
+            <p>Volte uma posição para encontrar a mensagem original.</p>
+        </div>
+
+        <p class="answer-instruction">
+            QUAL É A PALAVRA ORIGINAL?
+        </p>
+
+        <input
+            type="text"
+            id="answer3"
+            placeholder="Digite a palavra..."
+            autocomplete="off"
+        >
+
+        <button id="checkAnswer3">DECIFRAR MENSAGEM</button>
+
+        <p id="feedback3" class="feedback"></p>
+
+        <button id="hint3" class="hint-button">
+            PRECISO DE UMA PISTA
+        </button>
+
+        <p id="hintText3" class="hint-text"></p>
+
+        <div id="success3" class="success-message hidden">
+            <p class="eyebrow">MENSAGEM DECIFRADA</p>
+            <h3>O código foi quebrado.</h3>
+            <p>Você encontrou a mensagem original. Mas ainda há segredos esperando.</p>
+            <button id="nextRiddle3">AVANÇAR</button>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ENIGMA 4 -->
+<section id="riddle4" class="screen">
+
+    <div class="riddle-container">
+
+        <p class="eyebrow">ARQUIVO Nº 004 — QUARTO ENIGMA</p>
+
+        <p class="progress">04 / 05</p>
+
+        <h2>Os três chapéus</h2>
+
+        <div class="divider"></div>
+
+        <p class="riddle-description">
+            Três homens estão em uma fila. Cada um recebeu
+            um chapéu, sem saber sua própria cor.
+        </p>
+
+        <div class="hat-scene">
+            <div class="hat-person">
+                <span class="hat">🎩</span>
+                <span>HOMEM 1</span>
+                <small>Não vê ninguém.</small>
+            </div>
+
+            <div class="hat-person">
+                <span class="hat">🎩</span>
+                <span>HOMEM 2</span>
+                <small>Vê o homem 1.</small>
+            </div>
+
+            <div class="hat-person">
+                <span class="hat">🎩</span>
+                <span>HOMEM 3</span>
+                <small>Vê os homens 1 e 2.</small>
+            </div>
+        </div>
+
+        <div class="mystery-text">
+            <p>Existem cinco chapéus: três pretos e dois brancos.</p>
+            <p>Cada homem recebeu um chapéu.</p>
+            <p>Os dois chapéus restantes foram escondidos.</p>
+            <p>Todos sabem quantos chapéus de cada cor existem.</p>
+            <p>O terceiro homem olha para os dois primeiros e fica em silêncio.</p>
+            <p>O segundo homem olha para o primeiro e também fica em silêncio.</p>
+            <p>Então, o primeiro homem afirma com certeza:</p>
+            <p class="hat-question">"Meu chapéu é preto."</p>
+        </div>
+
+        <p class="answer-instruction">
+            COMO ELE DESCOBRIU A COR DO PRÓPRIO CHAPÉU?
+        </p>
+
+        <input
+            type="text"
+            id="answer4"
+            placeholder="Digite a cor..."
+            autocomplete="off"
+        >
+
+        <button id="checkAnswer4">CONFIRMAR RESPOSTA</button>
+
+        <p id="feedback4" class="feedback"></p>
+
+        <button id="hint4" class="hint-button">
+            PRECISO DE UMA PISTA
+        </button>
+
+        <p id="hintText4" class="hint-text"></p>
+
+        <div id="success4" class="success-message hidden">
+            <p class="eyebrow">DEDUÇÃO CORRETA</p>
+            <h3>Você enxergou o que os outros não viram.</h3>
+            <p>A lógica revelou a quarta resposta. Falta apenas uma porta.</p>
+            <button id="nextRiddle4">AVANÇAR</button>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ENIGMA 5 -->
+<section id="riddle5" class="screen">
+
+    <div class="riddle-container">
+
+        <p class="eyebrow">ARQUIVO Nº 005 — ÚLTIMO ENIGMA</p>
+
+        <p class="progress">05 / 05</p>
+
+        <h2>A última porta</h2>
+
+        <div class="divider"></div>
+
+        <p class="riddle-description">
+            Você chegou até aqui.
+            Quatro segredos foram revelados,
+            mas ainda existe uma última passagem.
+        </p>
+
+        
+<div class="last-door">
+    <div class="door-symbol">♔</div>
+    <p>O TABULEIRO ESTÁ QUASE VAZIO.</p>
+    <p>MAS UMA PEÇA AINDA PRECISA SER PROTEGIDA.</p>
+</div>
+
+<div class="mystery-text">
+    <p>Não sou a peça mais poderosa do tabuleiro.</p>
+    <p>Posso avançar apenas uma casa por vez.</p>
+    <p>Todos os movimentos existem para me proteger.</p>
+    <p>Quando não tenho mais saída, a partida termina.</p>
+    <p>Quem sou eu?</p>
+</div>
+
+<p class="answer-instruction">
+    QUAL PEÇA PRECISA SER PROTEGIDA A TODO CUSTO?
+</p>
+
+
+        <p class="answer-instruction">
+            O QUE ABRE A ÚLTIMA PORTA?
+        </p>
+
+        <input
+            type="text"
+            id="answer5"
+            placeholder="Digite sua resposta..."
+            autocomplete="off"
+        >
+
+        <button id="checkAnswer5">DESBLOQUEAR</button>
+
+        <p id="feedback5" class="feedback"></p>
+
+        <button id="hint5" class="hint-button">
+            PRECISO DE UMA PISTA
+        </button>
+
+        <p id="hintText5" class="hint-text"></p>
+
+        <div id="success5" class="success-message hidden">
+            <p class="eyebrow">TODOS OS ENIGMAS RESOLVIDOS</p>
+            <h3>A última porta foi aberta.</h3>
+            <p>Você encontrou o caminho. Agora, resta descobrir o que estava esperando do outro lado.</p>
+            <button id="openFinalEnvelope">REVELAR O QUE ESTÁ ESCONDIDO</button>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- RECOMPENSA FINAL -->
+<section id="rewardsScreen" class="screen">
+
+    <div class="rewards-container">
+
+        <p class="eyebrow">ARQUIVO FINAL — ACESSO LIBERADO</p>
+
+        <h2>Entre Nós</h2>
+
+        <p class="rewards-intro">
+            Algumas coisas não podem ser encontradas em livros,
+            nem escondidas atrás de portas.
+        </p>
+
+        <p class="rewards-intro">
+            Algumas precisam simplesmente ser vividas.
+        </p>
+
+        <div class="final-envelope" id="finalEnvelope">
+            <div class="envelope-flap"></div>
+            <div class="envelope-paper">
+                <span>UMA ÚLTIMA SURPRESA</span>
+            </div>
+            <div class="wax-seal">E</div>
+        </div>
+
+        <p class="envelope-instruction" id="envelopeInstruction">
+            Seu último presente está esperando.
+        </p>
+
+        <button id="revealCoupons">
+            ABRIR MEU PRESENTE
+        </button>
+
+        <div id="couponsArea" class="hidden">
+
+            <div class="divider"></div>
+
+            <h3>Dez pequenos motivos para sorrir.</h3>
+
+            <p class="coupon-counter" id="couponCounter">
+                0 de 10 vales resgatados
+            </p>
+
+            <div class="coupons-grid" id="couponsGrid"></div>
+
+            <div class="coupon-detail hidden" id="couponDetail">
+                <p class="eyebrow">UM PRESENTE PARA VOCÊ</p>
+                <h3 id="couponTitle"></h3>
+                <p id="couponDescription"></p>
+                <button id="redeemCoupon">RESGATAR ESTE VALE</button>
+                <button id="closeCoupon" class="hint-button">
+                    VOLTAR AOS VALES
+                </button>
+            </div>
+
+            <p class="final-message">
+                Alguns presentes não precisam ser embrulhados.
+                Só precisam ser vividos.
+            </p>
+
+        </div>
+
     </div>
 
 </section>
