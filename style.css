@@ -281,3 +281,186 @@ button:hover {
         font-size: 19px;
     }
 }
+
+/* PRIMEIRO ENIGMA */
+
+.riddle-container {
+    width: 100%;
+    max-width: 680px;
+    padding: 45px 35px;
+    text-align: center;
+    border: 1px solid rgba(182, 154, 97, 0.3);
+    background: rgba(16, 16, 16, 0.7);
+    animation: appear 1s ease;
+}
+
+.riddle-container h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 44px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.progress {
+    color: var(--gold);
+    font-size: 10px;
+    letter-spacing: 3px;
+    margin-top: 25px;
+}
+
+.riddle-description {
+    color: #c8bfb4;
+    font-size: 12px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.mystery-text {
+    padding: 25px 15px;
+    border-top: 1px solid rgba(182, 154, 97, 0.25);
+    border-bottom: 1px solid rgba(182, 154, 97, 0.25);
+    margin: 25px 0;
+}
+
+.mystery-text p {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    line-height: 1.8;
+    color: var(--paper);
+}
+
+.answer-instruction {
+    font-size: 12px;
+    margin: 30px 0 15px;
+    color: var(--gold);
+}
+
+#answer1 {
+    width: 100%;
+    max-width: 350px;
+    padding: 14px;
+    background: transparent;
+    border: 1px solid rgba(182, 154, 97, 0.5);
+    color: var(--paper);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    outline: none;
+}
+
+#answer1:focus {
+    border-color: var(--gold);
+}
+
+.feedback {
+    min-height: 25px;
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.hint-button {
+    display: block;
+    margin: 20px auto 0;
+    border: none;
+    font-size: 9px;
+    color: #a99b87;
+}
+
+.hint-text {
+    color: var(--gold);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+@media (max-width: 600px) {
+    .riddle-container {
+        padding: 35px 20px;
+    }
+
+    .riddle-container h2 {
+        font-size: 36px;
+    }
+
+    .mystery-text p {
+        font-size: 17px;
+    }
+}
+
+/* INTERROGATÓRIO DA OUTRA MÃE */
+
+.hidden {
+    display: none !important;
+}
+
+.error-challenge {
+    margin-top: 35px;
+    padding: 30px 20px;
+    border: 1px solid rgba(182, 154, 97, 0.4);
+    background: rgba(45, 15, 23, 0.65);
+    animation: appear 0.8s ease;
+}
+
+.error-challenge h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: #d7b6a0;
+    margin: 25px 0 15px;
+}
+
+.error-message {
+    color: #c8bfb4;
+    font-size: 12px;
+    line-height: 1.8;
+}
+
+.question-label,
+.hint-label {
+    color: var(--gold);
+    font-size: 9px;
+    letter-spacing: 2px;
+    margin: 25px 0 15px;
+}
+
+.error-challenge h4 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: var(--paper);
+    margin-bottom: 20px;
+}
+
+#funnyAnswer {
+    width: 100%;
+    max-width: 350px;
+    padding: 13px;
+    background: transparent;
+    border: 1px solid rgba(182, 154, 97, 0.5);
+    color: var(--paper);
+    text-align: center;
+    outline: none;
+}
+
+#funnyAnswer:focus {
+    border-color: var(--gold);
+}
+
+#hintArea {
+    margin-top: 25px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(182, 154, 97, 0.25);
+}
+
+#hintText1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 21px;
+    line-height: 1.6;
+    color: var(--gold);
+}
+
+@media (max-width: 600px) {
+    .error-challenge {
+        padding: 25px 15px;
+    }
+}
